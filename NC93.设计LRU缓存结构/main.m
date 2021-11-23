@@ -40,7 +40,7 @@ void init(int k) {
 void deleteTail(void) {
     struct node *last_node = db.tail->prev; // 尾结点的前一个就是最后一个有效数据，这就是设置尾结点的方便之处
  
-    db.tail->prev->prev->next = db.tail; 0 1 tail
+    db.tail->prev->prev->next = db.tail;
     db.tail->prev = db.tail->prev->prev;
     db.count--; // 删除后需要将有效数据的计数器减一
  
