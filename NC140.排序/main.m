@@ -17,7 +17,7 @@ void quickSort(int R[], int s, int t) {
     int middle = R[(s+t)/2];
     while (i!=j){
         while (i<j && R[i]<middle){
-            i++
+            i++;
         }
         while (j>i && R[j]>middle){
             j--;
