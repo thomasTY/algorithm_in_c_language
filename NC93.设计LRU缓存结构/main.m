@@ -2,7 +2,7 @@
 //  main.m
 //  NC93.设计LRU缓存结构
 //
-//  Created by chentianyou on 2021/11/23.
+//  Created by TYOU on 2021/11/23.
 // 不要用哈希表之类的奇技淫巧，只有这样才能清晰明了地体现出LRU的语义！
 
 #import <Foundation/Foundation.h>

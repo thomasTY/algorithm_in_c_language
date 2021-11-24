@@ -2,7 +2,7 @@
 //  main.m
 //  快速排序
 //
-//  Created by chentianyou on 2021/11/20.
+//  Created by TYOU on 2021/11/20.
 //
 
 #import <Foundation/Foundation.h>
