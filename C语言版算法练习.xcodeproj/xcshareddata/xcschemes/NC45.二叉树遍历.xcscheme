@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B45C459A2748D0CA007A19B4"
-               BuildableName = "&#x5feb;&#x901f;&#x6392;&#x5e8f;"
-               BlueprintName = "&#x5feb;&#x901f;&#x6392;&#x5e8f;"
+               BlueprintIdentifier = "B45C45A52748D161007A19B4"
+               BuildableName = "NC45.&#x4e8c;&#x53c9;&#x6811;&#x904d;&#x5386;"
+               BlueprintName = "NC45.&#x4e8c;&#x53c9;&#x6811;&#x904d;&#x5386;"
                ReferencedContainer = "container:C&#x8bed;&#x8a00;&#x7248;&#x7b97;&#x6cd5;&#x7ec3;&#x4e60;.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -44,9 +44,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B45C459A2748D0CA007A19B4"
-            BuildableName = "&#x5feb;&#x901f;&#x6392;&#x5e8f;"
-            BlueprintName = "&#x5feb;&#x901f;&#x6392;&#x5e8f;"
+            BlueprintIdentifier = "B45C45A52748D161007A19B4"
+            BuildableName = "NC45.&#x4e8c;&#x53c9;&#x6811;&#x904d;&#x5386;"
+            BlueprintName = "NC45.&#x4e8c;&#x53c9;&#x6811;&#x904d;&#x5386;"
             ReferencedContainer = "container:C&#x8bed;&#x8a00;&#x7248;&#x7b97;&#x6cd5;&#x7ec3;&#x4e60;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -61,9 +61,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B45C459A2748D0CA007A19B4"
-            BuildableName = "&#x5feb;&#x901f;&#x6392;&#x5e8f;"
-            BlueprintName = "&#x5feb;&#x901f;&#x6392;&#x5e8f;"
+            BlueprintIdentifier = "B45C45A52748D161007A19B4"
+            BuildableName = "NC45.&#x4e8c;&#x53c9;&#x6811;&#x904d;&#x5386;"
+            BlueprintName = "NC45.&#x4e8c;&#x53c9;&#x6811;&#x904d;&#x5386;"
             ReferencedContainer = "container:C&#x8bed;&#x8a00;&#x7248;&#x7b97;&#x6cd5;&#x7ec3;&#x4e60;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
