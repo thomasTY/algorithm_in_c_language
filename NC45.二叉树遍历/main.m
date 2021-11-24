@@ -40,6 +40,82 @@ void postOrder(BTNode * b) {
     printf("%d ", b->data);
 }
 
+int maxSize = 1000;
+// 先序遍历-非递归
+void preOrder1(BTNode * node) {
+    if (node == NULL) {
+        return;
+    }
+    BTNode * stack[maxSize], *p;
+    int top = 0;
+    stack[top] = node;
+    while (top>-1) {
+        p = stack[top];
+        top--;
+        printf("%d ",p->data);
+        if(p->rchild != NULL) {
+            top++;
+            stack[top] = p->rchild;
+        }
+        if (p->lchild != NULL) {
+            top++;
+            stack[top] = p->lchild;
+        }
+    }
+}
+// 中序遍历-非递归
+void inOrder1(BTNode * node) {
+    if (node == NULL) {
+        return;
+    }
+    BTNode * stack[maxSize];
+    BTNode * p = node;
+    int top = -1;
+    while (top>-1 || p != NULL) {
+        while (p != NULL) {
+            top++;
+            stack[top] = p;
+            p = p->lchild;
+        }
+        if (top>-1) { // 执行到此处，栈顶元素没有左孩子或左子树的节点均已访问过
+            p = stack[top];
+            top--;
+            printf("%d ",p->data);
+            p = p->rchild;
+        }
+    }
+}
+
+// 后序遍历-非递归
+void postOrder1(BTNode * node) {
+    if (node == NULL) {
+        return;
+    }
+    BTNode * stack[maxSize], * p;
+    int flag, top = -1;
+    do {
+        while (node != NULL) {
+            top++;
+            stack[top] = node;
+            node = node->lchild;
+        }
+        // 执行到此处，栈顶元素没有左孩子或左子树的节点均已访问过
+        p = NULL;
+        flag = 1;
+        while (top != -1 && flag) {
+            node = stack[top];
+            if (node->rchild == p) {
+                top--;
+                printf("%d ",node->data);
+                p = node;
+            } else {
+                node = node->rchild;
+                flag = 0;
+            }
+        }
+    } while (top != -1);
+}
+
 int main(int argc, const char * argv[]) {
     BTNode node1 = {1, NULL, NULL};
     BTNode node2 = {2, NULL, NULL};
@@ -65,12 +141,19 @@ int main(int argc, const char * argv[]) {
     printf("先序遍历:\n");
     preOrder(&node1);
     printf("\n");
+    preOrder1(&node1);
+    printf("\n");
     printf("中序遍历:\n");
     inOrder(&node1);
+    printf("\n");
+    inOrder1(&node1);
     printf("\n");
     printf("后序遍历:\n");
     postOrder(&node1);
     printf("\n");
+    postOrder1(&node1);
+    printf("\n");
     return 0;
 }
+
 
