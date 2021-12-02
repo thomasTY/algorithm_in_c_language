@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B45C45BB274BC658007A19B4"
-               BuildableName = "NC140.&#x6392;&#x5e8f;"
-               BlueprintName = "NC140.&#x6392;&#x5e8f;"
+               BuildableName = "NC140.&#x5feb;&#x901f;&#x6392;&#x5e8f;"
+               BlueprintName = "NC140.&#x5feb;&#x901f;&#x6392;&#x5e8f;"
                ReferencedContainer = "container:C&#x8bed;&#x8a00;&#x7248;&#x7b97;&#x6cd5;&#x7ec3;&#x4e60;.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,8 +45,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B45C45BB274BC658007A19B4"
-            BuildableName = "NC140.&#x6392;&#x5e8f;"
-            BlueprintName = "NC140.&#x6392;&#x5e8f;"
+            BuildableName = "NC140.&#x5feb;&#x901f;&#x6392;&#x5e8f;"
+            BlueprintName = "NC140.&#x5feb;&#x901f;&#x6392;&#x5e8f;"
             ReferencedContainer = "container:C&#x8bed;&#x8a00;&#x7248;&#x7b97;&#x6cd5;&#x7ec3;&#x4e60;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -62,8 +62,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B45C45BB274BC658007A19B4"
-            BuildableName = "NC140.&#x6392;&#x5e8f;"
-            BlueprintName = "NC140.&#x6392;&#x5e8f;"
+            BuildableName = "NC140.&#x5feb;&#x901f;&#x6392;&#x5e8f;"
+            BlueprintName = "NC140.&#x5feb;&#x901f;&#x6392;&#x5e8f;"
             ReferencedContainer = "container:C&#x8bed;&#x8a00;&#x7248;&#x7b97;&#x6cd5;&#x7ec3;&#x4e60;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

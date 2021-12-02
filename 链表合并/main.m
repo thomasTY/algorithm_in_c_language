@@ -20,12 +20,11 @@ void MergeList_L(LinkList La, LinkList Lb, LinkList Lc){
     pb = Lb->next;
     Lc = pc = La;//用La的头结点作为Lc的头结点
     while(pa && pb){
-        if(pa->data<=pb->data){
+        if(pa->data <= pb->data){
             pc->next = pa;
             pc = pa;
             pa = pa->next;
-        }
-        else{
+        }else{
             pc->next = pb;
             pc = pb;
             pb = pb->next;
