@@ -2,7 +2,7 @@
 //  main.m
 //  螺旋矩阵
 //
-//  Created by chentianyou on 2021/12/2.
+//  Created by TYOU on 2021/12/2.
 //  Copyright © 2021 TYOU. All rights reserved.
 /*
  螺旋矩阵：输入一个n*n的矩阵
